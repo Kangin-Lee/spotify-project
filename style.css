@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(251,251,251);
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+
+
+.fa-brands{
+    font-size: 40px;
+}
+
+.member,
+.menu{
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.member li,
+.menu li{
+    margin: 0 16px;
+}
+
+.navbar2 a:hover{
+    color: rgb(11, 161, 80);
+}
+
+.member a{
+    color: rgb(168, 165, 159);
+}
+
+.member{
+    padding: 0;
+}
+
+/* ------------------------main부분------------------------ */
+
+.main{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    text-align: center;
+    height: 529px;
+    background-color: rgb(255, 205, 210);
+
+}
+
+.main p{
+    margin: 0;
+    color: black;
+}
+
+.main a{
+    color: black;
+    text-decoration:underline;
+}
+
+.sentence-one{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.sentence-two{
+    font-size: 23px;
+    font-weight:540;
+}
+
+.android,
+.apple{
+    background-color: black;
+    color: rgb(251,251,251);
+    border-radius: 7px;
+    width: 100px;
+}
+.sentence-three{
+    font-size: 12px;
+}
+/* -----------------footer부분------------------------- */
+.footer{
+    height: 532px;
+    background-color: black;
+}
