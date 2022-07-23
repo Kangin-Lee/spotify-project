@@ -17,7 +17,7 @@ li{
 .navbar{
     display: flex;
     background-color: black;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     height: 80px;
 }
@@ -30,8 +30,6 @@ li{
     font-size: 27px;
     font-weight: bold;
 }
-
-
 
 .fa-brands{
     font-size: 40px;
@@ -84,7 +82,8 @@ li{
 }
 
 .sentence-one{
-    font-size: 60px;
+    padding-top: 15px;
+    font-size: 58px;
     font-weight: bold;
 }
 
@@ -93,13 +92,18 @@ li{
     font-weight:540;
 }
 
-.android,
-.apple{
+.store button{
     background-color: black;
-    color: rgb(251,251,251);
     border-radius: 7px;
-    width: 100px;
+    width: 140px;
+    height: 100%; 
+    border: none;
 }
+.store a{
+    color: rgb(251,251,251);
+    text-decoration: none;
+}
+
 .sentence-three{
     font-size: 12px;
 }
@@ -144,7 +148,7 @@ footer{
 }
 
 .snsbtn{
-    margin-left: 150px;
+    margin-left: 170px;
 }
 
 .company a:hover,
