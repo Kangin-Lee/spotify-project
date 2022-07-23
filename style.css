@@ -107,6 +107,11 @@ li{
 .sentence-three{
     font-size: 12px;
 }
+
+.googlestore{
+    width: 30px;
+}
+
 /* -----------------footer부분------------------------- */
 footer{
     height: 532px;
