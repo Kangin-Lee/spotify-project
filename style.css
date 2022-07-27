@@ -1,178 +1,176 @@
 body{
     margin: 0;
 }
-
 a{
     text-decoration: none;
-    color: rgb(251,251,251);
+    color: white;
 }
 
-p{
-    color: rgb(255, 255, 255);
+a:hover{
+    color: rgb(25, 185, 57);
 }
-
-li{
+nav ul li:nth-child(4){
+    color: white;
+}
+ul{
     list-style: none;
 }
-.navbar{
-    display: flex;
-    background-color: black;
-    justify-content: space-around;
-    align-items: center;
+nav{
     height: 80px;
-}
-
-.navbar2{
+    background-color: black;
     display: flex;
-    justify-content: space-between;
-}
-.logo a{
-    font-size: 27px;
-    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.fa-brands{
+nav ul{
+    display: flex;
+}
+
+nav li{
+    margin-right: 25px;
+}
+
+nav .fa-brands{
     font-size: 40px;
 }
 
-.member,
-.menu{
-    display: flex;
-    font-size: 16px;
+nav div .logo{
+    font-size: 30px;
     font-weight: bold;
 }
 
-.member li,
-.menu li{
-    margin: 0 16px;
+nav div a:hover{
+    color: white;
 }
-
-.navbar2 a:hover{
-    color: rgb(11, 161, 80);
-}
-
-.member a{
-    color: rgb(168, 165, 159);
-}
-
-.member{
-    padding: 0;
-}
-
-/* ------------------------main부분------------------------ */
-
+/* ================================================== */
 .main{
-    display: flex;
-    justify-content:space-evenly;
-    flex-direction: column;
-    text-align: center;
     height: 529px;
-    background-color: rgb(255, 205, 210);
-
+    background-color: rgb(255, 210, 210);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
+.main a .googlestore{
+    width: 25px;
+} 
 
 .main p{
     margin: 0;
-    color: black;
 }
 
-.main a{
-    color: black;
-    text-decoration:underline;
-}
-
-.sentence-one{
-    padding-top: 15px;
-    font-size: 58px;
+.main .one{
+    margin-top: 50px;
     font-weight: bold;
+    font-size: 60px;
 }
 
-.sentence-two{
-    font-size: 23px;
+.main .two{
     font-weight:540;
+    font-size: 25px;
 }
 
-.store button{
-    background-color: black;
-    border-radius: 7px;
-    width: 140px;
-    height: 100%; 
-    border: none;
-}
-.store a{
-    color: rgb(251,251,251);
-    text-decoration: none;
-}
-
-.sentence-three{
-    font-size: 12px;
-}
-
-.googlestore{
-    width: 30px;
-}
-
-/* -----------------footer부분------------------------- */
-footer{
-    height: 532px;
-    background-color: black;
-}
-.bottom-menu{
+.main .store{
     display: flex;
-    padding: 80px 0;
     justify-content: center;
+    align-items: center;
 }
 
-.category{
+.main .store .android{
+    width: 145px;
+}
+
+
+.main .main-bottom{
     font-size: small;
-    font-weight: bold;
+}
+
+.main .main-bottom a{
+    text-decoration: underline;
+    color: black;
+}
+
+/* ================================================================ */
+footer{
+    background-color: black;
+    height: 371px;
+    padding: 80px 77.5px;
+}
+
+.footer-top-menu{
+    display: flex;
+    box-sizing: border-box;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-top-menu li{
+    margin-bottom: 30px;
     color: gray;
 }
-.sns{
-    background-color: rgb(34, 35, 38);
-    border-radius: 100%;
+.a, .b, .c{
+    font-size: 14px;
+}
+.footer-top-menu ul{
+    margin: 0 20px 0 0;
+
+}
+
+.footer-top-menu .logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-top-menu .logo:hover{
+    color: white;
+}
+.sns button{
     width: 55px;
     height: 55px;
-    margin: 0 5px;
+    background-color: rgb(45, 46, 48);
+    font-size: 25px;
+    border-radius: 50%;
 }
 
-.company li,
-.community li,
-.links li{
-    margin-bottom: 20px;
-}
-
-.company,
-.community,
-.links{
-    margin-right: 20px;
-}
-
-.sns .fa-brands{
-    font-size: 27px;
-}
-
-.snsbtn{
-    margin-left: 170px;
-}
-
-.company a:hover,
-.community a:hover,
-.links a:hover,
-.snsbtn a:hover{
-    color: rgb(11, 161, 80);
+.kor{
+    color: white;
+    display: flex;
+    justify-content: end;
+    font-size: small;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .footer-bottom{
     display: flex;
+    justify-content: space-between;
+    font-size: small;
+
+}
+.footer-bottom p{
+    color: white;
+    margin: 0;
+}
+.footer-bottom ul{
+    display: flex;
+    padding: 0;
+}
+
+.footer-bottom li{
+    margin-right: 15px;
+}
+
+.footer-bottom-menu{
+    display: flex;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
-.footer-bottom a{
-    font-size: 12px;
+.footer-bottom-menu a,
+.footer-bottom-menu p{
     color: gray;
-}
-
-.footer-bottom-left a{
-    margin-right: 10px;
 }
